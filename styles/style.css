@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+}
+
+:root{
+    --primary-color:#5C8374;
+    --secondary-color:white; 
+    --hover-color:#93B1A6;
+}
+
+header{
+    background-image: url(../Images/bg-image.jpg);
+}
+
+.navber{
+    background: black;
+    color: aliceblue;
+}
+
+.logo-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.logo{
+    color: white;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.logo-part{
+    color: var(--primary-color);
+    font-size: 3.5rem;
+}
+
+.searchbar{
+
+    justify-content: space-between;
+    align-items: ;
+    color: black;
+    background-color: aliceblue;
+    margin: 10px 20px;
+    padding: 5px 20px ;
+    width: 50%;
+    border: 2px solid #5C8374;
+    border-radius: 40px;
+}
+
+.searchbar a{
+    padding-right: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1.5rem;
+    border-right: 2px solid var(--primery-color);
+
+}
+
+.searchbar input{
+    width: 55%;
+    font-size: 1.5rem;
+    padding: 10px 10px;
+    align-items: center;
+    margin: 0 50px;
+    background: none;
+    border: none;
+}
+
+.searchbar button{
+    
+    background: none;
+    border: none;
+    border: none;
+    border: none;
+}
+.searchbar button i{
+    justify-content: end;
+    font-size: 1.5rem;
+
+}
+
+.nav-icons i{
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    color: var(--primery-color);
+    text-align: center;
+}
+
+
+.manubar-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid var(--hover-color)
+}
+
+
+.manubar-container a{
+    font-size:1.5rem;
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+
+.manubar ul{
+    display: flex;
+    
+}
+
+.manubar li{
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    list-style: none;
+    padding: 30px;
+}
+
+
+
+.banner p{
+    color: var(--hover-color);
+    width: 400px;
+    padding: 20px 40px;
+    margin: 15px 25px;
+    line-height: 40px;
+}
+
+
+
+
+
+/* hover effect section*/
+.nav-icons i, .manubar li:hover {
+    color: var(--hover-color);
+}
